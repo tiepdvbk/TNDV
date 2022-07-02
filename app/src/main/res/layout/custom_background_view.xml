@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FCD6D9FD">
+    <LinearLayout
+        android:id="@+id/lnStartGame"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_350sdp"
+        android:orientation="vertical"
+        android:background="@drawable/bgrv11"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/_40sdp"
+        android:visibility="gone">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bạn đã sẵn sàng chưa?"
+            android:layout_marginStart="@dimen/_5sdp"
+            android:textSize="@dimen/_16sdp"
+            android:textColor="#F40D0D"
+            android:layout_marginBottom="@dimen/_10sdp"/>
+        <Button
+            android:id="@+id/btnStartGame"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sẵn sàng"
+            android:textSize="@dimen/_16sdp"
+            android:layout_marginStart="@dimen/_5sdp"
+            android:textColor="#070707"
+            android:layout_marginBottom="@dimen/_40sdp"
+            android:background="@android:color/transparent"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/lnStartDetailPlay"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_350sdp"
+        android:layout_marginTop="@dimen/_40sdp"
+        android:orientation="vertical"
+        android:background="@drawable/bgrv22"
+        android:gravity="center"
+        android:visibility="visible">
+        <TextView
+            android:id="@+id/tvDetail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Điểm: 30\n Câu: 10"
+            android:layout_marginBottom="@dimen/_5sdp"
+            android:textSize="@dimen/_14sdp"
+            android:layout_marginStart="@dimen/_5sdp"
+            android:textColor="#F40D0D"/>
+        <Button
+            android:id="@+id/btnContinuedGame"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tiếp tục"
+            android:textSize="@dimen/_16sdp"
+            android:layout_marginStart="@dimen/_5sdp"
+            android:textColor="#070707"
+            android:background="@android:color/transparent"/>
+        <Button
+            android:id="@+id/btnExitGame"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thoát"
+            android:layout_marginBottom="@dimen/_70sdp"
+            android:textSize="@dimen/_16sdp"
+            android:layout_marginStart="@dimen/_5sdp"
+            android:textColor="#070707"
+            android:background="@android:color/transparent"/>
+    </LinearLayout>
+</LinearLayout>

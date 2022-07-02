@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center">
+<!--    <androidx.viewpager.widget.ViewPager-->
+<!--        android:id="@+id/vpgGuide"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"/>-->
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tabGuide"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_width="@dimen/_280sdp"
+        android:layout_height="wrap_content"
+        app:tabBackground="@android:color/holo_blue_bright"
+        app:tabTextColor="#050505"
+        app:tabSelectedTextColor="#FB0202"
+        app:tabIndicatorHeight="@dimen/_5sdp"
+        app:tabIndicatorColor="#FBC02D"
+        app:tabMode="fixed"
+        />
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/vpg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/_10sdp"/>
+
+</LinearLayout>

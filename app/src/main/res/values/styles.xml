@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="FrPlayBtn">
+        <item name="android:layout_width">219dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#101010</item>
+        <item name="android:layout_marginBottom">35dp</item>
+    </style>
+
+    <style name="ButtomHoame">
+        <item name="android:layout_width">219dp</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#0C0C0C</item>
+        <item name="backgroundTint">#F5FD04</item>
+        <item name="android:layout_marginBottom">20dp</item>
+    </style>
+</resources>

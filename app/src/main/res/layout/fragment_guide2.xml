@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/_280sdp"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:orientation="vertical">
+    <TextView
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_width="@dimen/_250sdp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_16sdp"
+        android:layout_marginBottom="@dimen/_30sdp"
+        android:text="@string/xem_diem"/>
+
+</LinearLayout>

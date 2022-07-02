@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Trắc Nghiệm Đố Vui</string>
+    <string name="tr_c_nghi_m_vui_2021"> Trắc nghiệm đố vui</string>
+    <string name="btn_play">Chơi</string>
+    <string name="btn_score">Điểm</string>
+    <string name="btn_guide">Hướng dẫn</string>
+    <string name="btn_out">Thoát</string>
+    <string name="btnDe">Dễ</string>
+    <string name="btn_tb">trung bình</string>
+    <string name="btn_hackNao">khó</string>
+    <string name="tieu_de">Mời bạn chọn cấp độ</string>
+    <string name="BestScore">Điểm cao nhất:</string>
+    <string name="nearScore">Điểm gần đây:</string>
+    <string name="noData">Chưa có dữ liệu</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="cach_choi">Ấn nút chơi để chọn mức độ, mỗi mức độ sẽ có bộ 20 câu hỏi trắc nghiệm đố vui khác nhau, mỗi câu sẽ có 4 đáp án cho người chơi lựa chọn. Thời gian giới hạn để chơi trong mức độ dễ là 300s, trung bình là 250s và khó là 200s. Trong lúc chơi có thể tạm dừng, tiếp tục hoặc thoát game.</string>
+    <string name="gioi_thieu"></string>
+    <string name="xem_diem">Điểm cho mỗi câu trả lời đúng là 10 và trả lời sai sẽ không được điểm. Nếu thoát game khi chưa hoàn thành trò chơi sẽ không được lưu điểm. Điểm lưu tại chức năng xem điểm trong menu chính, gồm có điểm cao nhất của người chơi và danh sách điểm của 10 lần chơi gần đây nhất. Chúc các bạn chơi game vui vẻ</string>
+</resources>
